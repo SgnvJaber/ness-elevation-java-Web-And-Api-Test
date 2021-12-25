@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+    <webUrl>https://www.google.com/</webUrl>
+    <apiUrl>https://reqres.in/</apiUrl>
+    <pathGet>/api/users</pathGet>
+</Enviroment>

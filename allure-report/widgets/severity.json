@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e3522047962b2c56",
+  "name" : "ReqRes List of Emails",
+  "time" : {
+    "start" : 1640426805154,
+    "stop" : 1640426808365,
+    "duration" : 3211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "708dbae38fb84a80",
+  "name" : "Google Search",
+  "time" : {
+    "start" : 1640426638286,
+    "stop" : 1640426640722,
+    "duration" : 2436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,93 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-LVSINNE",
+    "children" : [ {
+      "name" : "2304@DESKTOP-LVSINNE.main(1)",
+      "children" : [ {
+        "name" : "ReqRes List of Emails",
+        "uid" : "21dd51639660f79e",
+        "parentUid" : "23735d2c76dd65a37d368cc589604d25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640426303255,
+          "stop" : 1640426306199,
+          "duration" : 2944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "23735d2c76dd65a37d368cc589604d25"
+    }, {
+      "name" : "1132@DESKTOP-LVSINNE.main(1)",
+      "children" : [ {
+        "name" : "Google Search",
+        "uid" : "708dbae38fb84a80",
+        "parentUid" : "e6b8a0af1a9ee8e2699aa7654093ded7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640426638286,
+          "stop" : 1640426640722,
+          "duration" : 2436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome", "web" ]
+      } ],
+      "uid" : "e6b8a0af1a9ee8e2699aa7654093ded7"
+    }, {
+      "name" : "20648@DESKTOP-LVSINNE.main(1)",
+      "children" : [ {
+        "name" : "ReqRes List of Emails",
+        "uid" : "e3522047962b2c56",
+        "parentUid" : "f59a89d0ce701ef5a4558cb0c0404123",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640426805154,
+          "stop" : 1640426808365,
+          "duration" : 3211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "f59a89d0ce701ef5a4558cb0c0404123"
+    }, {
+      "name" : "14612@DESKTOP-LVSINNE.main(1)",
+      "children" : [ {
+        "name" : "Google Search",
+        "uid" : "895a2cbb50825cf4",
+        "parentUid" : "cfe5a06d158202733a22803b19255c68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640426583060,
+          "stop" : 1640426585446,
+          "duration" : 2386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome", "web" ]
+      } ],
+      "uid" : "cfe5a06d158202733a22803b19255c68"
+    } ],
+    "uid" : "3196cffb300f9b470aadf758110412de"
+  } ]
+}
