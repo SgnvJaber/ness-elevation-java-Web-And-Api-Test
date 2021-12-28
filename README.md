@@ -10,7 +10,7 @@ While the Test folder contains the differing testing files for each platform.
 This file contains the configuration needed to run the program.
 ### Dependencies
 
-*The main dependencies are containd in the Poem file,to fully run the tests which were conducted
+*The main dependencies are containd in the Pom file,to fully run the tests which were conducted
 
 
 ### Executing program
