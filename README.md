@@ -1,5 +1,5 @@
 # Java Automation
-The following project contains a min automation infrastructure covering Api and Web Testing
+The following project contains a mini automation infrastructure covering Api and Web Testing
 
 ## Description
 The projects consists of a Main and Test folder each has its own class and packages.
