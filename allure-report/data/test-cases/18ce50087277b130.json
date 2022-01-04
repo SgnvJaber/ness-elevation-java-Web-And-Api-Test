@@ -1,0 +1,120 @@
+{
+  "uid" : "18ce50087277b130",
+  "name" : "Google Search",
+  "fullName" : "GoogleSearch.Test01_GoogleSearch",
+  "historyId" : "c0006506a11b19266f0f75a83cb73068",
+  "time" : {
+    "start" : 1640672474138,
+    "stop" : 1640672476267,
+    "duration" : 2129
+  },
+  "description" : "Search for a given input using Google Search bar and verify it is contained in the first result",
+  "descriptionHtml" : "<p>Search for a given input using Google Search bar and verify it is contained in the first result</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1640672468748,
+      "stop" : 1640672473771,
+      "duration" : 5023
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1640672473779,
+      "stop" : 1640672474073,
+      "duration" : 294
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1640672476273,
+      "stop" : 1640672476925,
+      "duration" : 652
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoogleSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "GoogleSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_GoogleSearch"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "GoogleSearch"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoogleSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O9P40TL"
+  }, {
+    "name" : "thread",
+    "value" : "9588@DESKTOP-O9P40TL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Browser",
+    "value" : "chrome"
+  }, {
+    "name" : "Platform",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18ce50087277b130.json",
+  "parameterValues" : [ "chrome", "web" ]
+}

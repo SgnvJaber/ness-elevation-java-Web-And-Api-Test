@@ -2,59 +2,59 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4132" started-at="2021-12-25T12:06:44 IST" finished-at="2021-12-25T12:06:48 IST">
+  <suite name="Suite" duration-ms="7326" started-at="2021-12-28T09:26:09 IST" finished-at="2021-12-28T09:26:16 IST">
     <groups>
     </groups>
-    <test name="ReqResApi" duration-ms="4132" started-at="2021-12-25T12:06:44 IST" finished-at="2021-12-25T12:06:48 IST">
-      <class name="ReqresApi">
-        <test-method status="PASS" signature="startSession(java.lang.String,java.lang.String)[pri:0, instance:ReqresApi@4d4d48a6]" name="startSession" is-config="true" duration-ms="751" started-at="2021-12-25T12:06:44 IST" finished-at="2021-12-25T12:06:45 IST">
+    <test name="GoogleSearch" duration-ms="7326" started-at="2021-12-28T09:26:09 IST" finished-at="2021-12-28T09:26:16 IST">
+      <class name="GoogleSearch">
+        <test-method status="PASS" signature="startSession(java.lang.String,java.lang.String)[pri:0, instance:GoogleSearch@77b325b3]" name="startSession" is-config="true" duration-ms="3866" started-at="2021-12-28T09:26:09 IST" finished-at="2021-12-28T09:26:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api]]>
+                <![CDATA[web]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Optional Parameter]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startSession -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:ReqresApi@4d4d48a6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-12-25T12:06:45 IST" finished-at="2021-12-25T12:06:45 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:GoogleSearch@77b325b3]" name="beforeMethod" is-config="true" duration-ms="216" started-at="2021-12-28T09:26:13 IST" finished-at="2021-12-28T09:26:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api]]>
+                <![CDATA[web]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void ReqresApi.Test01_ReqRes_Emails()]]>
+                <![CDATA[public void GoogleSearch.Test01_GoogleSearch()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Test01_ReqRes_Emails()[pri:0, instance:ReqresApi@4d4d48a6]" name="Test01_ReqRes_Emails" duration-ms="3239" started-at="2021-12-25T12:06:45 IST" description="ReqRes List of Emails" finished-at="2021-12-25T12:06:48 IST">
+        <test-method status="PASS" signature="Test01_GoogleSearch()[pri:0, instance:GoogleSearch@77b325b3]" name="Test01_GoogleSearch" duration-ms="2426" started-at="2021-12-28T09:26:13 IST" description="Google Search" finished-at="2021-12-28T09:26:15 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test01_ReqRes_Emails -->
-        <test-method status="PASS" signature="closeSession(java.lang.String)[pri:0, instance:ReqresApi@4d4d48a6]" name="closeSession" is-config="true" duration-ms="1" started-at="2021-12-25T12:06:48 IST" finished-at="2021-12-25T12:06:48 IST">
+        </test-method> <!-- Test01_GoogleSearch -->
+        <test-method status="PASS" signature="closeSession(java.lang.String)[pri:0, instance:GoogleSearch@77b325b3]" name="closeSession" is-config="true" duration-ms="649" started-at="2021-12-28T09:26:15 IST" finished-at="2021-12-28T09:26:16 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api]]>
+                <![CDATA[web]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- ReqresApi -->
-    </test> <!-- ReqResApi -->
+      </class> <!-- GoogleSearch -->
+    </test> <!-- GoogleSearch -->
   </suite> <!-- Suite -->
 </testng-results>

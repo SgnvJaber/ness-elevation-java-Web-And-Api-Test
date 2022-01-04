@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Saed\IdeaProjects\WebAutomation\Api.xml</span>
+                    <span>C:\Users\Sgnv\Desktop\Simu\ness-elevation-java-Web-And-Api-Test\Web.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ReqresApi" hash-for-method="Test01_ReqRes_Emails">Test01_ReqRes_Emails</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GoogleSearch" hash-for-method="Test01_GoogleSearch">Test01_GoogleSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -122,16 +122,16 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">ReqresApi</span>
+              <span class="class-name">GoogleSearch</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Test01_ReqRes_Emails">
-                  </a> <!-- Test01_ReqRes_Emails -->
-                  <span class="method-name">Test01_ReqRes_Emails</span>
+                  <a name="Test01_GoogleSearch">
+                  </a> <!-- Test01_GoogleSearch -->
+                  <span class="method-name">Test01_GoogleSearch</span>
                   <em>
-(ReqRes List of Emails)                  </em>
+(Google Search)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -139,7 +139,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Saed\IdeaProjects\WebAutomation\Api.xml</span>
+            <span class="header-content">C:\Users\Sgnv\Desktop\Simu\ness-elevation-java-Web-And-Api-Test\Web.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -149,12 +149,13 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.AutomationListeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ReqResApi&quot;&gt;
-    &lt;parameter name=&quot;Platform&quot; value=&quot;api&quot;/&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;GoogleSearch&quot; parallel=&quot;methods&quot;&gt;
+    &lt;parameter name=&quot;Platform&quot; value=&quot;web&quot;/&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ReqresApi&quot;/&gt;
+      &lt;class name=&quot;GoogleSearch&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ReqResApi --&gt;
+  &lt;/test&gt; &lt;!-- GoogleSearch --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -166,7 +167,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ReqResApi (1 class)</span>
+                <span class="test-name">GoogleSearch (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,14 +195,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Test01_ReqRes_Emails')
-data.setCell(0, 2, 'ReqresApi')
-data.setCell(0, 3, 3239);
+data.setCell(0, 1, 'Test01_GoogleSearch')
+data.setCell(0, 2, 'GoogleSearch')
+data.setCell(0, 3, 2426);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -227,22 +228,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ReqresApi</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">GoogleSearch</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">startSession(api, Optional Parameter)</span>
+                <span class="method-name">startSession(web, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(api, public void ReqresApi.Test01_ReqRes_Emails())</span>
-                <span class="method-start">769 ms</span>
+                <span class="method-name">beforeMethod(web, public void GoogleSearch.Test01_GoogleSearch())</span>
+                <span class="method-start">3878 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Test01_ReqRes_Emails</span>
-                <span class="method-start">833 ms</span>
+                <span class="method-name">Test01_GoogleSearch</span>
+                <span class="method-start">4190 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <span class="method-name">closeSession(api)</span>
-                <span class="method-start">4080 ms</span>
+                <span class="method-name">closeSession(web)</span>
+                <span class="method-start">6633 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

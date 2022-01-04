@@ -1,0 +1,117 @@
+{
+  "uid" : "93cf22c80e7824d",
+  "name" : "ReqRes List of Emails",
+  "fullName" : "ReqresApi.Test01_ReqRes_Emails",
+  "historyId" : "9d52d629d5338696b46f77b0b95206df",
+  "time" : {
+    "start" : 1640672409095,
+    "stop" : 1640672411953,
+    "duration" : 2858
+  },
+  "description" : "Using ReqRes Api print all emails in all pages",
+  "descriptionHtml" : "<p>Using ReqRes Api print all emails in all pages</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1640672408570,
+      "stop" : 1640672409007,
+      "duration" : 437
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1640672409023,
+      "stop" : 1640672409023,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1640672411953,
+      "stop" : 1640672411953,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReqresApi"
+  }, {
+    "name" : "testClass",
+    "value" : "ReqresApi"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_ReqRes_Emails"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ReqResApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReqresApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O9P40TL"
+  }, {
+    "name" : "thread",
+    "value" : "12088@DESKTOP-O9P40TL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Platform",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93cf22c80e7824d.json",
+  "parameterValues" : [ "api" ]
+}

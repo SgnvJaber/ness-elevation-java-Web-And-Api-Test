@@ -5,7 +5,7 @@
     <listeners>
         <listener class-name="utilities.AutomationListeners"/>
     </listeners>
-    <test name="GoogleSearch" parallel="false">
+    <test name="GoogleSearch" parallel="" thread-count="3">
         <parameter name="Platform" value="web"/>
         <parameter name="Browser" value="chrome"/>
         <classes>

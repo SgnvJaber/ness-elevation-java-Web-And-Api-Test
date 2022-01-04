@@ -1,0 +1,479 @@
+{
+  "uid" : "10dcc889621cab3a",
+  "name" : "ReqRes List of Emails",
+  "fullName" : "ReqresApi.Test01_ReqRes_Emails",
+  "historyId" : "9d52d629d5338696b46f77b0b95206df",
+  "time" : {
+    "start" : 1640673027172,
+    "stop" : 1640673030371,
+    "duration" : 3199
+  },
+  "description" : "Using ReqRes Api print all emails in all pages",
+  "descriptionHtml" : "<p>Using ReqRes Api print all emails in all pages</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1640673026276,
+      "stop" : 1640673027055,
+      "duration" : 779
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "A function to initialize the Api session ",
+      "time" : {
+        "start" : 1640673026295,
+        "stop" : 1640673027055,
+        "duration" : 760
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Initiating url variable",
+        "time" : {
+          "start" : 1640673026295,
+          "stop" : 1640673026312,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Getting data from the configuration file",
+          "time" : {
+            "start" : 1640673026299,
+            "stop" : 1640673026312,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "nodeName",
+            "value" : "apiUrl"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Getting data from the configuration file",
+        "time" : {
+          "start" : 1640673026313,
+          "stop" : 1640673026314,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "nodeName",
+          "value" : "pathGet"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1640673027065,
+      "stop" : 1640673027065,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Using ReqRes Api print all emails in all pages",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Get List of users attribute from all pages",
+      "time" : {
+        "start" : 1640673027178,
+        "stop" : 1640673029970,
+        "duration" : 2792
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Business Flow: Get the number of total pages containing users",
+        "time" : {
+          "start" : 1640673027178,
+          "stop" : 1640673029134,
+          "duration" : 1956
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get Data From Server",
+          "time" : {
+            "start" : 1640673027182,
+            "stop" : 1640673028605,
+            "duration" : 1423
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "paramValues",
+            "value" : "/api/users"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Extract Value From JSON Format",
+          "time" : {
+            "start" : 1640673028606,
+            "stop" : 1640673029134,
+            "duration" : 528
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "response",
+            "value" : "io.restassured.internal.RestAssuredResponseImpl@13ef7fa1"
+          }, {
+            "name" : "key",
+            "value" : "total_pages"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Business Flow: Get List of users attribute from given page",
+        "time" : {
+          "start" : 1640673029135,
+          "stop" : 1640673029564,
+          "duration" : 429
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get Data From Server",
+          "time" : {
+            "start" : 1640673029135,
+            "stop" : 1640673029548,
+            "duration" : 413
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "paramValues",
+            "value" : "/api/users?page=1"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Extract List of Values From JSON Format",
+          "time" : {
+            "start" : 1640673029548,
+            "stop" : 1640673029564,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "response",
+            "value" : "io.restassured.internal.RestAssuredResponseImpl@5341e71a"
+          }, {
+            "name" : "key",
+            "value" : "data.email"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "attribute",
+          "value" : "data.email"
+        }, {
+          "name" : "page_number",
+          "value" : "1"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Business Flow: Get List of users attribute from given page",
+        "time" : {
+          "start" : 1640673029564,
+          "stop" : 1640673029970,
+          "duration" : 406
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get Data From Server",
+          "time" : {
+            "start" : 1640673029564,
+            "stop" : 1640673029954,
+            "duration" : 390
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "paramValues",
+            "value" : "/api/users?page=2"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Extract List of Values From JSON Format",
+          "time" : {
+            "start" : 1640673029954,
+            "stop" : 1640673029970,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "response",
+            "value" : "io.restassured.internal.RestAssuredResponseImpl@12aa381f"
+          }, {
+            "name" : "key",
+            "value" : "data.email"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "attribute",
+          "value" : "data.email"
+        }, {
+          "name" : "page_number",
+          "value" : "2"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "attribute",
+        "value" : "data.email"
+      } ],
+      "stepsCount" : 9,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Business Flow: Print List content",
+      "time" : {
+        "start" : 1640673029970,
+        "stop" : 1640673029970,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "list",
+        "value" : "[george.bluth@reqres.in, janet.weaver@reqres.in, emma.wong@reqres.in, eve.holt@reqres.in, charles.morris@reqres.in, tracey.ramos@reqres.in, michael.lawson@reqres.in, lindsay.ferguson@reqres.in, tobias.funke@reqres.in, byron.fields@reqres.in, george.edwards@reqres.in, rachel.howell@reqres.in]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Business Flow: Get the number of total users ",
+      "time" : {
+        "start" : 1640673029970,
+        "stop" : 1640673030371,
+        "duration" : 401
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1640673029970,
+          "stop" : 1640673030355,
+          "duration" : 385
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/users"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1640673030355,
+          "stop" : 1640673030371,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@22aefae0"
+        }, {
+          "name" : "key",
+          "value" : "total"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify given integers are equal",
+      "time" : {
+        "start" : 1640673030371,
+        "stop" : 1640673030371,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "12"
+      }, {
+        "name" : "exp",
+        "value" : "12"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1640673030386,
+      "stop" : 1640673030386,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReqresApi"
+  }, {
+    "name" : "testClass",
+    "value" : "ReqresApi"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_ReqRes_Emails"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ReqResApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReqresApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O9P40TL"
+  }, {
+    "name" : "thread",
+    "value" : "1644@DESKTOP-O9P40TL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Platform",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10dcc889621cab3a.json",
+  "parameterValues" : [ "api" ]
+}

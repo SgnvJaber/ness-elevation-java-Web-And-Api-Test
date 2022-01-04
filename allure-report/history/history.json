@@ -9,12 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "708dbae38fb84a80",
+      "uid" : "9d0270d2f5d6d376",
+      "reportUrl" : "http://localhost:9090/job/GoogleWeb/1/allure/#testresult/9d0270d2f5d6d376",
       "status" : "passed",
       "time" : {
-        "start" : 1640426638286,
-        "stop" : 1640426640722,
-        "duration" : 2436
+        "start" : 1640673527541,
+        "stop" : 1640673529633,
+        "duration" : 2092
       }
     } ]
   },
@@ -28,12 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e3522047962b2c56",
+      "uid" : "e7b852690cf17b2f",
+      "reportUrl" : "http://localhost:9090/job/GoogleWeb/1/allure/#testresult/e7b852690cf17b2f",
       "status" : "passed",
       "time" : {
-        "start" : 1640426805154,
-        "stop" : 1640426808365,
-        "duration" : 3211
+        "start" : 1640673388053,
+        "stop" : 1640673391722,
+        "duration" : 3669
       }
     } ]
   }

@@ -12,6 +12,7 @@ public class ResultsPage {
     @FindBy(xpath = "//div[@class='yuRUbf']/a")
     private List<WebElement> search_results;
 
+    ////div[@class='v7W49e']/div[not(@class='ULSxyf')]
     @Step("Get a list of results elements")
     public List<WebElement> get_list_of_results() {
         return search_results;
